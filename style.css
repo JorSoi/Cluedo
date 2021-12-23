@@ -1,0 +1,87 @@
+* {
+    margin: unset;
+    padding: unset;
+    box-sizing: border-box;
+    /* border: 1px solid white; */
+    font-family:'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    color: red;
+}
+
+input {
+    height: 50px;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-align: center;
+    outline: rgb(123, 255, 0);
+    border: 2px solid rgba(255, 0, 0, 0.424);
+    background-color: rgba(200, 21, 21, 0.568);
+
+}
+
+
+.img-container {
+    width: 100%;
+    height: auto;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+}
+
+.input-container {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.input-wrapper {
+    width: 80%;
+    margin: 0 2vw;
+    display: flex;
+    justify-content: space-between
+}
+
+.submit-container,
+.answer-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: 900;
+    cursor: pointer;
+    margin-top: 60px;
+}
+
+#answer-text {
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    min-height: 20px;
+    max-width: 700px;
+}
+
+#spidey-gif {
+    position:fixed;
+    top:0;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index:100;                       
+    transform: translate(124% , 0);
+    display: none;
+}
